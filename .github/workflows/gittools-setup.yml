@@ -31,6 +31,6 @@ jobs:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
       - name: Install GitVersion
-        uses: v1vhm/gittools-actions/gitversion/setup@a94a3b62ee018ef5346cb08fd0d63d93811fe691 # v3.0.0
+        uses: actions/gittools/gitversion/setup@v3
         with:
           versionSpec: '6.x'
